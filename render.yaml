@@ -3,7 +3,7 @@ services:
     name: telegram-ai-bot
     runtime: python
     buildCommand: ""
-    startCommand: python poudel-telegram_ai_bot.py
+    startCommand: python3 poudelTeligramBot.py
     envVars:
       - key: BOT_TOKEN
         sync: false
